@@ -1,12 +1,14 @@
-﻿using System;
+using System;
 
-namespace G2
-{
-    class Program
+    namespace gitCS2
     {
-        static void Main(string[] args)
+        class Program
         {
-            Console.WriteLine("Hello World!");
+            static void Main(string[] args)
+            {
+            Util.Print(".NET Test Code for Git Cheat Sheet");
+            var result = 1 + 2;
+            Console.WriteLine("1 + 2 = " + result); // geaendert in Branch: master
+            }
         }
     }
-}

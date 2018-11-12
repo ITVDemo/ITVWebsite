@@ -7,7 +7,7 @@ using System;
             static void Main(string[] args)
             {
             Util.Print(".NET Test Code for Git Cheat Sheet");
-            var result = 3 + 3;
+            var result = 3 + 31;
             Console.WriteLine("3 + 3 = " + result); // geaendert in Branch: master
             }
         }
